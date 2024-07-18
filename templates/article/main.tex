@@ -1,0 +1,77 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{csquotes}
+\usepackage[style=ieee]{biblatex}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{caption}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{16pt}
+\lhead{\foreignlanguage{ngerman}{Universität Münster}}
+\cfoot{\thepage}
+\rfoot{Gandalf the White}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+\addbibresource{sources.bib}
+
+\hyphenation{Geo-in-for-ma-tics}
+
+\begin{document}
+
+\begin{titlepage}
+
+    \begin{figure}
+        \vspace{1cm}
+        \begin{minipage}{0.48\textwidth}
+            \begin{flushleft}
+                \includegraphics[height=2.3cm]{images/wwu_logo.png}
+            \end{flushleft}
+        \end{minipage}\hfill
+        \begin{minipage}{0.48\textwidth}
+            \begin{flushright}
+                \includegraphics[height=2cm]{images/20-05-12_logo_ifgi_redesing_black.png}
+            \end{flushright}
+        \end{minipage}
+        \vspace{1cm}
+    \end{figure}
+
+    \thispagestyle{fancy}
+
+    \vspace{1in}
+    \center
+
+    {\large Title}
+
+    \vspace{1in}
+
+    Subtitle
+
+    \vspace{1in}
+
+    \begin{minipage}{0.75\textwidth}
+        \textit{Student:} \\
+        Gandalf the White\\
+        Matriculation number: 9 \\
+        gandalf.the.white@uni-muenster.de \\
+        Formal Wizardry (M.Sc.) \\
+    \end{minipage}
+
+    \vspace{2in}
+
+    \textbf{\large\foreignlanguage{ngerman}{Institut für Geoinformatik}} \\
+
+    \today
+
+\end{titlepage}
+
+\section{Notes}
+
+Wizard business\cite{galton2004fields}
+
+\printbibliography
+
+\end{document}
