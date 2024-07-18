@@ -35,7 +35,7 @@ tlmgr install biber
 tlmgr install fancyhdr
 ```
 
-For BibLaTeX, ``biber`` may have to be installed separately and added to PATH, e.g. in ``~/.bashrc``:
+For BibLaTeX, ``biber`` may have to be installed and added to PATH, e.g. in ``~/.bashrc``:
 
 ```sh
 export PATH=$PATH:~/.TinyTeX/bin/x86_64-linux
